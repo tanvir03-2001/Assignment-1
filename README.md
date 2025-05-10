@@ -34,7 +34,7 @@ const myId: ID = 1234; // ঠিক আছে
 
 ```
 
-### মূল পার্থক্য
+### Key differences
 
 Interface is mostly used when creating objects.
 
@@ -59,7 +59,7 @@ Now keyof Person will mean "name" | "age" | "email"
 
 That is, it will be any one of these three names.
 
-### উদাহরণ
+### Examples
 
 ```
 function getValue(obj: Person, key: keyof Person) {
